@@ -29,54 +29,54 @@ const FEATURES = [
     description:
       "Automatically track competitor prices across thousands of products. Get notified the moment anything changes.",
     icon: Search,
-    color: "text-violet-600",
-    bg: "bg-gradient-to-br from-violet-100 to-violet-50",
-    accent: "from-violet-500 to-purple-500",
+    color: "text-rose-600",
+    bg: "bg-rose-50",
+    accent: "from-rose-500 to-red-600",
   },
   {
     title: "Price Trend Analysis",
     description:
       "Visualize price movements over time with interactive charts. Spot patterns and predict future pricing strategies.",
     icon: LineChart,
-    color: "text-blue-600",
-    bg: "bg-gradient-to-br from-blue-100 to-blue-50",
-    accent: "from-blue-500 to-indigo-500",
+    color: "text-slate-700",
+    bg: "bg-slate-50",
+    accent: "from-slate-500 to-slate-600",
   },
   {
     title: "Instant Alerts",
     description:
       "Get real-time notifications via email, Slack, or in-app when prices change, products launch, or sales begin.",
     icon: Zap,
-    color: "text-amber-600",
-    bg: "bg-gradient-to-br from-amber-100 to-amber-50",
-    accent: "from-amber-500 to-orange-500",
+    color: "text-rose-600",
+    bg: "bg-rose-50",
+    accent: "from-rose-500 to-red-600",
   },
   {
     title: "Competitive Reports",
     description:
       "Automated weekly and monthly reports with key insights, top movers, and actionable recommendations.",
     icon: FileBarChart,
-    color: "text-emerald-600",
-    bg: "bg-gradient-to-br from-emerald-100 to-emerald-50",
-    accent: "from-emerald-500 to-teal-500",
+    color: "text-slate-700",
+    bg: "bg-slate-50",
+    accent: "from-slate-500 to-slate-600",
   },
   {
     title: "Multi-Platform Support",
     description:
       "Works with Shopify, WooCommerce, Magento, and any eCommerce platform. No setup required.",
     icon: Link2,
-    color: "text-pink-600",
-    bg: "bg-gradient-to-br from-pink-100 to-pink-50",
-    accent: "from-pink-500 to-rose-500",
+    color: "text-rose-600",
+    bg: "bg-rose-50",
+    accent: "from-rose-500 to-red-600",
   },
   {
     title: "Lightning Fast",
     description:
       "Cloud-based scraping engine processes thousands of products in minutes. Always up-to-date data.",
     icon: Rocket,
-    color: "text-cyan-600",
-    bg: "bg-gradient-to-br from-cyan-100 to-cyan-50",
-    accent: "from-cyan-500 to-blue-500",
+    color: "text-slate-700",
+    bg: "bg-slate-50",
+    accent: "from-slate-500 to-slate-600",
   },
 ];
 
@@ -86,21 +86,21 @@ const HOW_IT_WORKS = [
     title: "Add Competitors",
     description:
       "Enter your competitor URLs and we'll automatically detect their platform and product pages.",
-    gradient: "from-violet-500 to-purple-600",
+    gradient: "from-rose-500 to-red-600",
   },
   {
     step: "02",
     title: "We Monitor 24/7",
     description:
       "Our engine scrapes competitor sites on your chosen schedule, detecting every price and product change.",
-    gradient: "from-blue-500 to-indigo-600",
+    gradient: "from-red-500 to-red-700",
   },
   {
     step: "03",
     title: "Get Insights",
     description:
       "Receive instant alerts, explore analytics dashboards, and review automated intelligence reports.",
-    gradient: "from-fuchsia-500 to-pink-600",
+    gradient: "from-rose-600 to-rose-700",
   },
 ];
 
@@ -110,27 +110,27 @@ const WHY_PROWL = [
     description:
       "Stop manually checking competitor websites. Prowl monitors pricing, stock levels, and promotions automatically so your team can focus on strategy.",
     icon: Clock,
-    color: "text-violet-600",
-    bg: "bg-gradient-to-br from-violet-100 to-violet-50",
-    tint: "from-violet-500/[0.03] to-transparent",
+    color: "text-rose-600",
+    bg: "bg-rose-50",
+    tint: "from-rose-500/[0.03] to-transparent",
   },
   {
     title: "Never Miss a Price Change",
     description:
       "Get instant alerts the moment a competitor adjusts pricing or launches a promotion. React in minutes, not days.",
     icon: BellRing,
-    color: "text-blue-600",
-    bg: "bg-gradient-to-br from-blue-100 to-blue-50",
-    tint: "from-blue-500/[0.03] to-transparent",
+    color: "text-slate-700",
+    bg: "bg-slate-50",
+    tint: "from-slate-500/[0.03] to-transparent",
   },
   {
     title: "Data-Driven Decisions",
     description:
       "Interactive dashboards and automated reports give you the competitive intelligence to make confident pricing and product decisions.",
     icon: BarChart3,
-    color: "text-emerald-600",
-    bg: "bg-gradient-to-br from-emerald-100 to-emerald-50",
-    tint: "from-emerald-500/[0.03] to-transparent",
+    color: "text-rose-600",
+    bg: "bg-rose-50",
+    tint: "from-rose-500/[0.03] to-transparent",
   },
 ];
 
@@ -141,11 +141,9 @@ export default function LandingPage() {
           HERO + NAV — Dark, atmospheric
           ═══════════════════════════════════════════ */}
       <section className="relative overflow-hidden bg-slate-950">
-        {/* Floating gradient blobs */}
-        <div className="absolute -top-40 -left-40 h-[600px] w-[600px] rounded-full bg-gradient-to-br from-violet-500/30 via-purple-500/20 to-fuchsia-500/15 blur-3xl animate-float" />
-        <div className="absolute top-0 -right-40 h-[500px] w-[500px] rounded-full bg-gradient-to-bl from-blue-500/25 via-indigo-500/15 to-cyan-500/10 blur-3xl animate-float-slow" />
-        <div className="absolute bottom-0 left-1/3 h-[400px] w-[400px] rounded-full bg-gradient-to-tr from-pink-500/20 via-rose-500/10 to-orange-500/5 blur-3xl animate-float-reverse" />
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 h-[300px] w-[600px] rounded-full bg-gradient-to-r from-violet-400/10 to-pink-400/10 blur-3xl" />
+        {/* Subtle radial glow */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-gradient-radial from-rose-500/10 via-red-500/5 to-transparent blur-3xl" />
+        <div className="absolute inset-0 grid-pattern" />
 
         {/* Navbar */}
         <nav className="relative z-50">
@@ -235,18 +233,14 @@ export default function LandingPage() {
           FEATURES — Light, warm-tinted, premium cards
           ═══════════════════════════════════════════ */}
       <section id="features" className="relative overflow-hidden bg-[#f8f9fc] py-32">
-        {/* Subtle radial tints for depth */}
-        <div className="absolute top-0 left-1/4 h-[500px] w-[500px] rounded-full bg-violet-200/20 blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 h-[400px] w-[400px] rounded-full bg-blue-200/15 blur-3xl" />
-
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <div className="mb-3 inline-flex items-center rounded-full bg-violet-100 px-3 py-1">
-              <span className="text-[12px] font-semibold uppercase tracking-widest text-violet-600">Features</span>
+            <div className="mb-3 inline-flex items-center rounded-full bg-rose-50 px-3 py-1">
+              <span className="text-[12px] font-semibold uppercase tracking-widest text-rose-600">Features</span>
             </div>
             <h2 className="text-3xl font-semibold tracking-[-0.02em] text-slate-900 sm:text-4xl lg:text-[2.75rem]">
               Everything you need for{" "}
-              <span className="gradient-text-blue">competitive intelligence</span>
+              <span className="gradient-text-brand">competitive intelligence</span>
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-slate-500">
               Powerful tools to monitor, analyze, and act on competitor data
@@ -281,8 +275,8 @@ export default function LandingPage() {
       <section className="relative overflow-hidden bg-white py-32">
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <div className="mb-3 inline-flex items-center rounded-full bg-indigo-100 px-3 py-1">
-              <span className="text-[12px] font-semibold uppercase tracking-widest text-indigo-600">How it works</span>
+            <div className="mb-3 inline-flex items-center rounded-full bg-rose-50 px-3 py-1">
+              <span className="text-[12px] font-semibold uppercase tracking-widest text-rose-600">How it works</span>
             </div>
             <h2 className="text-3xl font-semibold tracking-[-0.02em] text-slate-900 sm:text-4xl lg:text-[2.75rem]">
               Get started in{" "}
@@ -292,7 +286,7 @@ export default function LandingPage() {
           <div className="relative mt-20 grid gap-8 md:grid-cols-3">
             {/* Connecting gradient line on desktop */}
             <div className="absolute top-[3.25rem] left-[16.67%] right-[16.67%] hidden h-px md:block">
-              <div className="h-full w-full bg-gradient-to-r from-violet-300 via-blue-300 to-pink-300" />
+              <div className="h-full w-full bg-gradient-to-r from-rose-300 via-red-300 to-rose-400" />
             </div>
 
             {HOW_IT_WORKS.map((item) => (
@@ -317,22 +311,22 @@ export default function LandingPage() {
           ═══════════════════════════════════════════ */}
       <section className="relative overflow-hidden bg-slate-950 py-32">
         <div className="absolute inset-0 grid-pattern" />
-        {/* Ambient glow behind dashboard */}
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 h-[500px] w-[700px] rounded-full bg-gradient-to-r from-violet-500/15 via-indigo-500/10 to-blue-500/15 blur-3xl" />
+        {/* Subtle ambient glow */}
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 h-[500px] w-[700px] rounded-full bg-gradient-to-r from-rose-500/10 via-red-500/8 to-rose-500/10 blur-3xl" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <div className="mb-3 inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1">
-              <span className="text-[12px] font-semibold uppercase tracking-widest text-violet-400">Dashboard</span>
+              <span className="text-[12px] font-semibold uppercase tracking-widest text-rose-400">Dashboard</span>
             </div>
             <h2 className="text-3xl font-semibold tracking-[-0.02em] text-white sm:text-4xl lg:text-[2.75rem]">
-              Every competitor move, <span className="gradient-text-blue whitespace-nowrap">one dashboard</span>
+              Every competitor move, <span className="gradient-text-brand whitespace-nowrap">one dashboard</span>
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-slate-400">
               Your competitors made 47 price changes last week. Prowl caught every single one.
             </p>
           </div>
-          <div className="mt-16 rounded-2xl border border-white/10 bg-white/[0.03] p-1.5 shadow-2xl shadow-violet-500/10 backdrop-blur-sm">
+          <div className="mt-16 rounded-2xl border border-white/10 bg-white/[0.03] p-1.5 shadow-2xl shadow-rose-500/10 backdrop-blur-sm">
             <div className="rounded-xl bg-slate-900/60 backdrop-blur-md p-6 sm:p-8">
               {/* Faux dashboard header */}
               <div className="flex items-center justify-between border-b border-white/10 pb-5">
@@ -370,7 +364,7 @@ export default function LandingPage() {
                   <p className="text-[13px] font-medium text-slate-300">Price Trends</p>
                   <div className="mt-4 flex items-end gap-1 h-32">
                     {[40, 45, 38, 52, 48, 56, 51, 62, 58, 65, 60, 68, 72, 70, 75, 73, 78, 82, 80, 85].map((h, i) => (
-                      <div key={i} className="flex-1 rounded-sm bg-gradient-to-t from-violet-500 to-blue-400" style={{ height: `${h}%`, opacity: 0.4 + (i / 20) * 0.6 }} />
+                      <div key={i} className="flex-1 rounded-sm bg-gradient-to-t from-rose-500 to-red-400" style={{ height: `${h}%`, opacity: 0.4 + (i / 20) * 0.6 }} />
                     ))}
                   </div>
                 </div>
@@ -430,7 +424,7 @@ export default function LandingPage() {
                 Prowl automates that entire workflow.&rdquo;
               </p>
               <div className="mt-6 flex items-center justify-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-purple-600 text-sm font-bold text-white">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-rose-500 to-red-600 text-sm font-bold text-white">
                   P
                 </div>
                 <div className="text-left">
@@ -449,12 +443,12 @@ export default function LandingPage() {
       <section className="relative overflow-hidden bg-white py-32">
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <div className="mb-3 inline-flex items-center rounded-full bg-amber-100 px-3 py-1">
-              <span className="text-[12px] font-semibold uppercase tracking-widest text-amber-700">Why Prowl</span>
+            <div className="mb-3 inline-flex items-center rounded-full bg-rose-50 px-3 py-1">
+              <span className="text-[12px] font-semibold uppercase tracking-widest text-rose-600">Why Prowl</span>
             </div>
             <h2 className="text-3xl font-semibold tracking-[-0.02em] text-slate-900 sm:text-4xl lg:text-[2.75rem]">
               Built for{" "}
-              <span className="gradient-text-warm">eCommerce teams</span>
+              <span className="gradient-text-brand">eCommerce teams</span>
             </h2>
           </div>
           <div className="mt-20 grid gap-6 md:grid-cols-3">
@@ -482,10 +476,6 @@ export default function LandingPage() {
           PRICING — Warm-tinted light, elevated cards
           ═══════════════════════════════════════════ */}
       <section id="pricing" className="relative overflow-hidden bg-[#f8f9fc] py-32">
-        {/* Subtle mesh tints */}
-        <div className="absolute top-20 right-0 h-[500px] w-[500px] rounded-full bg-violet-200/15 blur-3xl" />
-        <div className="absolute bottom-20 left-0 h-[400px] w-[400px] rounded-full bg-pink-200/10 blur-3xl" />
-
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <PricingSection />
         </div>
@@ -497,12 +487,12 @@ export default function LandingPage() {
       <section id="faq" className="relative bg-[#f8f9fc] py-32">
         <div className="relative mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="mb-3 inline-flex items-center rounded-full bg-blue-100 px-3 py-1">
-              <span className="text-[12px] font-semibold uppercase tracking-widest text-blue-600">FAQ</span>
+            <div className="mb-3 inline-flex items-center rounded-full bg-rose-50 px-3 py-1">
+              <span className="text-[12px] font-semibold uppercase tracking-widest text-rose-600">FAQ</span>
             </div>
             <h2 className="text-3xl font-semibold tracking-[-0.02em] text-slate-900 sm:text-4xl lg:text-[2.75rem]">
               Frequently asked{" "}
-              <span className="gradient-text-blue">questions</span>
+              <span className="gradient-text-brand">questions</span>
             </h2>
           </div>
           <div className="mt-14 rounded-2xl border border-slate-200/80 bg-white p-2 shadow-sm">
@@ -534,7 +524,7 @@ export default function LandingPage() {
                 },
               ].map((faq, i) => (
                 <AccordionItem key={i} value={`faq-${i}`} className="border-slate-100 px-4">
-                  <AccordionTrigger className="text-left text-[14px] font-medium text-slate-900 hover:text-violet-600 hover:no-underline">
+                  <AccordionTrigger className="text-left text-[14px] font-medium text-slate-900 hover:text-rose-600 hover:no-underline">
                     {faq.q}
                   </AccordionTrigger>
                   <AccordionContent className="text-[13px] leading-relaxed text-slate-500">
@@ -551,9 +541,6 @@ export default function LandingPage() {
           CTA BANNER — Full gradient, edge-to-edge
           ═══════════════════════════════════════════ */}
       <section className="relative gradient-cta py-28 overflow-hidden">
-        <div className="absolute -top-24 -left-24 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
-        <div className="absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-48 w-96 rounded-full bg-white/5 blur-3xl" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-semibold tracking-[-0.02em] text-white sm:text-5xl">

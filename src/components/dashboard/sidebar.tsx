@@ -42,11 +42,11 @@ export function Sidebar({ planTier = "starter", unreadAlerts = 0 }: SidebarProps
               className={cn(
                 "flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all",
                 isActive
-                  ? "bg-gradient-to-r from-violet-500/10 to-purple-500/10 text-violet-700 shadow-sm"
+                  ? "bg-rose-50 text-rose-700 shadow-sm"
                   : "text-slate-600 hover:bg-white/60 hover:text-slate-900"
               )}
             >
-              <item.icon className={cn("h-4 w-4", isActive && "text-violet-600")} />
+              <item.icon className={cn("h-4 w-4", isActive && "text-rose-600")} />
               {item.title}
               {item.title === "Alerts" && unreadAlerts > 0 && (
                 <span className="ml-auto flex h-5 min-w-5 items-center justify-center rounded-full bg-red-500 px-1.5 text-[11px] font-semibold text-white">
@@ -59,8 +59,8 @@ export function Sidebar({ planTier = "starter", unreadAlerts = 0 }: SidebarProps
       </nav>
 
       <div className="border-t border-slate-200/60 p-4">
-        <div className="rounded-xl bg-gradient-to-r from-violet-500/5 to-purple-500/5 p-3">
-          <p className="text-xs font-medium text-violet-700">
+        <div className="rounded-xl bg-gradient-to-r from-rose-500/5 to-red-500/5 p-3">
+          <p className="text-xs font-medium text-rose-700">
             Competitor Intelligence
           </p>
           <p className="mt-0.5 text-[11px] text-slate-500">

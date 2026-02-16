@@ -11,8 +11,8 @@ export function PricingSection() {
   return (
     <>
       <div className="mx-auto max-w-2xl text-center">
-        <div className="mb-3 inline-flex items-center rounded-full bg-violet-100 px-3 py-1">
-          <span className="text-[12px] font-semibold uppercase tracking-widest text-violet-600">Pricing</span>
+        <div className="mb-3 inline-flex items-center rounded-full bg-rose-50 px-3 py-1">
+          <span className="text-[12px] font-semibold uppercase tracking-widest text-rose-600">Pricing</span>
         </div>
         <h2 className="text-3xl font-semibold tracking-[-0.02em] text-slate-900 sm:text-4xl lg:text-[2.75rem]">
           Simple,{" "}
@@ -60,13 +60,13 @@ export function PricingSection() {
               key={tier.name}
               className={`relative rounded-2xl ${
                 tier.popular
-                  ? "gradient-border bg-white shadow-xl shadow-violet-200/40 scale-[1.02]"
+                  ? "gradient-border bg-white shadow-xl shadow-rose-200/40 scale-[1.02]"
                   : "card-hover border border-slate-200/80 bg-white shadow-sm"
               }`}
             >
               {tier.popular && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-10">
-                  <span className="btn-gradient inline-flex items-center rounded-full px-3 py-1 text-[11px] font-medium text-white shadow-md shadow-violet-300/30">
+                  <span className="btn-gradient inline-flex items-center rounded-full px-3 py-1 text-[11px] font-medium text-white shadow-md shadow-rose-300/30">
                     Most Popular
                   </span>
                 </div>
@@ -74,7 +74,7 @@ export function PricingSection() {
               <div className="p-6">
                 <h3 className="text-[15px] font-semibold text-slate-900">{tier.name}</h3>
                 <p className="mt-1 text-[13px] text-slate-500">{tier.description}</p>
-                <p className="mt-2 text-[12px] font-medium text-violet-600">
+                <p className="mt-2 text-[12px] font-medium text-rose-600">
                   Best for: {tier.bestFor}
                 </p>
                 <div className="mt-5">
@@ -102,14 +102,14 @@ export function PricingSection() {
                       key={feature}
                       className="flex items-start gap-2.5 text-[13px] text-slate-600"
                     >
-                      <Check className={`mt-0.5 h-3.5 w-3.5 shrink-0 ${tier.popular ? "text-violet-500" : "text-slate-400"}`} />
+                      <Check className={`mt-0.5 h-3.5 w-3.5 shrink-0 ${tier.popular ? "text-rose-500" : "text-slate-400"}`} />
                       {feature}
                     </li>
                   ))}
                 </ul>
                 <Link href={isEnterprise ? "#" : "/signup"} className="block mt-8">
                   {isEnterprise ? (
-                    <button className="w-full rounded-lg border border-slate-200 bg-white py-2.5 text-[13px] font-medium text-slate-700 transition-all hover:border-violet-200 hover:text-violet-700 hover:shadow-sm">
+                    <button className="w-full rounded-lg border border-slate-200 bg-white py-2.5 text-[13px] font-medium text-slate-700 transition-all hover:border-rose-200 hover:text-rose-700 hover:shadow-sm">
                       Contact Sales
                     </button>
                   ) : tier.popular ? (
@@ -117,7 +117,7 @@ export function PricingSection() {
                       Start Free Trial
                     </button>
                   ) : (
-                    <button className="w-full rounded-lg border border-slate-200 bg-white py-2.5 text-[13px] font-medium text-slate-700 transition-all hover:border-violet-200 hover:text-violet-700 hover:shadow-sm">
+                    <button className="w-full rounded-lg border border-slate-200 bg-white py-2.5 text-[13px] font-medium text-slate-700 transition-all hover:border-rose-200 hover:text-rose-700 hover:shadow-sm">
                       Start Free Trial
                     </button>
                   )}

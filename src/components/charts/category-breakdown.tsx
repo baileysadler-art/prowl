@@ -14,14 +14,14 @@ interface CategoryBreakdownProps {
 }
 
 const COLORS = [
+  "#e11d48",
+  "#0d9488",
   "#2563eb",
-  "#059669",
   "#d97706",
-  "#dc2626",
   "#7c3aed",
-  "#db2777",
+  "#059669",
+  "#dc2626",
   "#0891b2",
-  "#65a30d",
 ];
 
 export function CategoryBreakdown({ data }: CategoryBreakdownProps) {

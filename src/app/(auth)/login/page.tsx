@@ -38,7 +38,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="glass-strong rounded-2xl p-8 shadow-xl shadow-purple-500/5">
+    <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-lg shadow-black/5">
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-slate-900">Sign in</h2>
         <p className="mt-1 text-sm text-slate-500">
@@ -59,7 +59,7 @@ export default function LoginPage() {
             placeholder="you@company.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="rounded-lg border-slate-200 bg-white/60"
+            className="rounded-lg border-slate-200 bg-white"
             required
           />
         </div>
@@ -68,7 +68,7 @@ export default function LoginPage() {
             <Label htmlFor="password">Password</Label>
             <Link
               href="/forgot-password"
-              className="text-xs font-medium text-violet-600 hover:text-violet-700"
+              className="text-xs font-medium text-rose-600 hover:text-rose-700"
             >
               Forgot password?
             </Link>
@@ -79,7 +79,7 @@ export default function LoginPage() {
             placeholder="Enter your password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="rounded-lg border-slate-200 bg-white/60"
+            className="rounded-lg border-slate-200 bg-white"
             required
           />
         </div>
@@ -93,7 +93,7 @@ export default function LoginPage() {
         </button>
         <p className="text-center text-sm text-slate-500">
           Don&apos;t have an account?{" "}
-          <Link href="/signup" className="font-medium text-violet-600 hover:text-violet-700">
+          <Link href="/signup" className="font-medium text-rose-600 hover:text-rose-700">
             Sign up
           </Link>
         </p>

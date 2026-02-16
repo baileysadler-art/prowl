@@ -36,7 +36,7 @@ export default function ForgotPasswordPage() {
 
   if (success) {
     return (
-      <div className="glass-strong rounded-2xl p-8 shadow-xl shadow-purple-500/5">
+      <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-lg shadow-black/5">
         <div className="mb-6">
           <h2 className="text-xl font-semibold text-slate-900">Check your email</h2>
           <p className="mt-1 text-sm text-slate-500">
@@ -54,7 +54,7 @@ export default function ForgotPasswordPage() {
   }
 
   return (
-    <div className="glass-strong rounded-2xl p-8 shadow-xl shadow-purple-500/5">
+    <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-lg shadow-black/5">
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-slate-900">Forgot password</h2>
         <p className="mt-1 text-sm text-slate-500">
@@ -75,7 +75,7 @@ export default function ForgotPasswordPage() {
             placeholder="you@company.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="rounded-lg border-slate-200 bg-white/60"
+            className="rounded-lg border-slate-200 bg-white"
             required
           />
         </div>
@@ -90,7 +90,7 @@ export default function ForgotPasswordPage() {
         <p className="text-center">
           <Link
             href="/login"
-            className="text-sm text-slate-500 hover:text-violet-600"
+            className="text-sm text-slate-500 hover:text-rose-600"
           >
             Back to sign in
           </Link>

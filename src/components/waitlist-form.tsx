@@ -61,7 +61,7 @@ export function WaitlistForm({ variant = "hero" }: WaitlistFormProps) {
           className={`w-full sm:w-72 rounded-xl px-4 py-3 text-[14px] transition-all focus:outline-none focus:ring-2 ${
             isCta
               ? "border border-white/20 bg-white/10 text-white placeholder:text-white/50 focus:border-white/40 focus:ring-white/20 backdrop-blur-sm"
-              : "border border-white/10 bg-white/5 text-white placeholder:text-slate-500 focus:border-violet-400/50 focus:ring-violet-500/20 backdrop-blur-sm"
+              : "border border-white/10 bg-white/5 text-white placeholder:text-slate-500 focus:border-rose-400/50 focus:ring-rose-500/20 backdrop-blur-sm"
           }`}
         />
       </div>

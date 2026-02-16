@@ -148,7 +148,7 @@ export default function BillingPage() {
             </div>
             <div className="h-2 rounded-full bg-slate-100">
               <div
-                className="h-2 rounded-full bg-blue-600 transition-all"
+                className="h-2 rounded-full bg-rose-500 transition-all"
                 style={{
                   width: `${Math.min(
                     100,
@@ -169,12 +169,12 @@ export default function BillingPage() {
             <Card
               key={tier.name}
               className={`relative ${
-                tier.popular ? "border-blue-600 shadow-md" : ""
+                tier.popular ? "border-rose-500 shadow-md" : ""
               }`}
             >
               {tier.popular && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                  <Badge className="bg-blue-600">Most Popular</Badge>
+                  <Badge className="bg-rose-500">Most Popular</Badge>
                 </div>
               )}
               <CardHeader>
@@ -203,7 +203,7 @@ export default function BillingPage() {
                 </ul>
                 <Button
                   className={`mt-6 w-full ${
-                    isCurrent ? "" : tier.popular ? "bg-blue-600 hover:bg-blue-700" : ""
+                    isCurrent ? "" : tier.popular ? "bg-rose-500 hover:bg-rose-600" : ""
                   }`}
                   variant={isCurrent ? "outline" : "default"}
                   disabled={isCurrent || loading !== null}

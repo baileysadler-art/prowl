@@ -68,9 +68,9 @@ export function PriceHistoryChart({
           <Line
             type="monotone"
             dataKey="price"
-            stroke="#2563eb"
+            stroke="#e11d48"
             strokeWidth={2}
-            dot={{ fill: "#2563eb", strokeWidth: 0, r: 3 }}
+            dot={{ fill: "#e11d48", strokeWidth: 0, r: 3 }}
             activeDot={{ r: 5 }}
           />
         </LineChart>

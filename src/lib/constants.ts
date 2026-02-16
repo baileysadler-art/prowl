@@ -34,8 +34,8 @@ export const planTierLabels: Record<string, string> = {
 
 export const planTierColors: Record<string, string> = {
   starter: "bg-slate-100 text-slate-700",
-  professional: "bg-blue-100 text-blue-700",
-  business: "bg-purple-100 text-purple-700",
+  professional: "bg-rose-100 text-rose-700",
+  business: "bg-red-100 text-red-700",
   enterprise: "bg-amber-100 text-amber-700",
 };
 
@@ -55,7 +55,7 @@ export const changeTypeColors: Record<string, string> = {
   new_product: "text-blue-600 bg-blue-50",
   out_of_stock: "text-amber-600 bg-amber-50",
   back_in_stock: "text-emerald-600 bg-emerald-50",
-  sale_started: "text-purple-600 bg-purple-50",
+  sale_started: "text-rose-600 bg-rose-50",
   sale_ended: "text-slate-600 bg-slate-50",
 };
 

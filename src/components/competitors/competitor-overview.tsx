@@ -53,8 +53,8 @@ export function CompetitorOverview({
         <Card>
           <CardContent className="p-6">
             <div className="flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-purple-50">
-                <Clock className="h-4 w-4 text-purple-600" />
+              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-rose-50">
+                <Clock className="h-4 w-4 text-rose-600" />
               </div>
               <div>
                 <p className="text-2xl font-bold text-slate-900">

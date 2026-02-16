@@ -76,7 +76,7 @@ export function Header({ user, unreadAlerts = 0, planTier }: HeaderProps) {
         >
           <Bell className="h-5 w-5 text-slate-600" />
           {unreadAlerts > 0 && (
-            <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-gradient-to-r from-violet-600 to-purple-600 text-[10px] font-medium text-white">
+            <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-gradient-to-r from-rose-500 to-red-600 text-[10px] font-medium text-white">
               {unreadAlerts > 9 ? "9+" : unreadAlerts}
             </span>
           )}
@@ -86,7 +86,7 @@ export function Header({ user, unreadAlerts = 0, planTier }: HeaderProps) {
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" size="icon" className="rounded-full">
               <Avatar className="h-8 w-8">
-                <AvatarFallback className="bg-gradient-to-br from-violet-100 to-purple-100 text-violet-700 text-xs font-semibold">
+                <AvatarFallback className="bg-gradient-to-br from-rose-100 to-red-100 text-rose-700 text-xs font-semibold">
                   {initials}
                 </AvatarFallback>
               </Avatar>

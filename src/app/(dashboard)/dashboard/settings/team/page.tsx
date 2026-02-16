@@ -44,7 +44,7 @@ interface TeamMember {
 }
 
 const roleColors: Record<string, string> = {
-  owner: "bg-purple-50 text-purple-700",
+  owner: "bg-rose-50 text-rose-700",
   admin: "bg-blue-50 text-blue-700",
   member: "bg-slate-50 text-slate-700",
 };

@@ -25,7 +25,7 @@ const kpis = [
     key: "products",
     label: "New Products (7d)",
     icon: Package,
-    color: "text-purple-600 bg-purple-50",
+    color: "text-rose-600 bg-rose-50",
   },
   {
     key: "alerts",

@@ -21,7 +21,7 @@ const TYPE_COLORS: Record<string, string> = {
   new_product: "#2563eb",
   out_of_stock: "#d97706",
   back_in_stock: "#10b981",
-  sale_started: "#7c3aed",
+  sale_started: "#e11d48",
   sale_ended: "#64748b",
 };
 

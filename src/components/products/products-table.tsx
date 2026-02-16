@@ -143,7 +143,7 @@ export function ProductsTable({ products }: { products: Product[] }) {
                       </span>
                     )}
                   {product.is_on_sale && (
-                    <Badge className="ml-2 bg-purple-100 text-purple-700 text-xs">
+                    <Badge className="ml-2 bg-rose-100 text-rose-700 text-xs">
                       Sale
                     </Badge>
                   )}

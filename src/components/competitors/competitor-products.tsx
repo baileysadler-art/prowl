@@ -99,7 +99,7 @@ export function CompetitorProducts({ products }: CompetitorProductsProps) {
                 </TableCell>
                 <TableCell>
                   {product.is_on_sale && (
-                    <Badge className="bg-purple-100 text-purple-700">
+                    <Badge className="bg-rose-100 text-rose-700">
                       On Sale
                     </Badge>
                   )}

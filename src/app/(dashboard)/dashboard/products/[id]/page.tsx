@@ -85,7 +85,7 @@ export default async function ProductDetailPage({ params }: Props) {
           {product.in_stock ? "In Stock" : "Out of Stock"}
         </Badge>
         {product.is_on_sale && (
-          <Badge className="bg-purple-100 text-purple-700">On Sale</Badge>
+          <Badge className="bg-rose-100 text-rose-700">On Sale</Badge>
         )}
       </div>
 

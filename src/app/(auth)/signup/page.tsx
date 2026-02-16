@@ -68,7 +68,7 @@ export default function SignupPage() {
   }
 
   return (
-    <div className="glass-strong rounded-2xl p-8 shadow-xl shadow-purple-500/5">
+    <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-lg shadow-black/5">
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-slate-900">Create your account</h2>
         <p className="mt-1 text-sm text-slate-500">
@@ -88,7 +88,7 @@ export default function SignupPage() {
             placeholder="John Smith"
             value={fullName}
             onChange={(e) => setFullName(e.target.value)}
-            className="rounded-lg border-slate-200 bg-white/60"
+            className="rounded-lg border-slate-200 bg-white"
             required
           />
         </div>
@@ -99,7 +99,7 @@ export default function SignupPage() {
             placeholder="Acme Inc"
             value={orgName}
             onChange={(e) => setOrgName(e.target.value)}
-            className="rounded-lg border-slate-200 bg-white/60"
+            className="rounded-lg border-slate-200 bg-white"
             required
           />
         </div>
@@ -111,7 +111,7 @@ export default function SignupPage() {
             placeholder="you@company.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="rounded-lg border-slate-200 bg-white/60"
+            className="rounded-lg border-slate-200 bg-white"
             required
           />
         </div>
@@ -123,7 +123,7 @@ export default function SignupPage() {
             placeholder="Min 8 characters"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="rounded-lg border-slate-200 bg-white/60"
+            className="rounded-lg border-slate-200 bg-white"
             minLength={8}
             required
           />
@@ -138,7 +138,7 @@ export default function SignupPage() {
         </button>
         <p className="text-center text-sm text-slate-500">
           Already have an account?{" "}
-          <Link href="/login" className="font-medium text-violet-600 hover:text-violet-700">
+          <Link href="/login" className="font-medium text-rose-600 hover:text-rose-700">
             Sign in
           </Link>
         </p>
